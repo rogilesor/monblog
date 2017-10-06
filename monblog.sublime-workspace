@@ -1,0 +1,1100 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"cat",
+				"categories"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"resu",
+				"resultats〔variable〕"
+			],
+			[
+				"ligen",
+				"ligne[7"
+			],
+			[
+				"lignes",
+				"lignes_Sep〔variable〕"
+			],
+			[
+				"nett",
+				"nettoyer"
+			],
+			[
+				"N",
+				"Nombre"
+			],
+			[
+				"ligne",
+				"lignes_Sep〔variable〕"
+			],
+			[
+				"angular",
+				"angular.min.js"
+			],
+			[
+				"Post",
+				"PostAdmin〔class〕"
+			],
+			[
+				"au",
+				"auto_now_add"
+			],
+			[
+				"Bla",
+				"BlatAdmin〔class〕"
+			],
+			[
+				"tes",
+				"test_rsf"
+			],
+			[
+				"test",
+				"test_esf"
+			],
+			[
+				"ma",
+				"matable"
+			],
+			[
+				"la",
+				"lattitudes〔variable〕"
+			],
+			[
+				"conne",
+				"connexion〔variable〕"
+			],
+			[
+				"cal",
+				"calcul_ratio〔argument〕"
+			],
+			[
+				"comp",
+				"compare_match_all〔function〕"
+			],
+			[
+				"oth",
+				"other_target〔variable〕"
+			],
+			[
+				"fir",
+				"first_ratio〔variable〕"
+			],
+			[
+				"mon",
+				"mon_iter〔variable〕"
+			],
+			[
+				"dic",
+				"dict_target_ratio〔argument〕"
+			],
+			[
+				"v",
+				"valeur"
+			],
+			[
+				"replace",
+				"replacecm〔function〕"
+			],
+			[
+				"dict",
+				"dict_ratio〔argument〕"
+			],
+			[
+				"my",
+				"my_iter〔variable〕"
+			],
+			[
+				"my_",
+				"my_ratio"
+			],
+			[
+				"first",
+				"first_ratio〔variable〕"
+			],
+			[
+				"dist",
+				"distances〔variable〕"
+			],
+			[
+				"latlon",
+				"latlong〔variable〕"
+			],
+			[
+				"lat",
+				"latlong〔variable〕"
+			],
+			[
+				"latlong",
+				"latlong2〔variable〕"
+			],
+			[
+				"forec",
+				"forecast_out〔variable〕"
+			],
+			[
+				"to",
+				"token_sort_ratio"
+			],
+			[
+				"user",
+				"user_search_two〔variable〕"
+			],
+			[
+				"table",
+				"table6〔variable〕"
+			],
+			[
+				"loo",
+				"lookup"
+			],
+			[
+				"phr",
+				"phrase_resultat〔variable〕"
+			],
+			[
+				"phrase",
+				"phrase_resultat"
+			],
+			[
+				"tab",
+				"table_artistes2〔variable〕"
+			],
+			[
+				"or",
+				"ordered_values〔variable〕"
+			],
+			[
+				"pie",
+				"pie_chart〔variable〕"
+			],
+			[
+				"donn",
+				"donnees_ensemble〔variable〕"
+			],
+			[
+				"connect",
+				"connection"
+			],
+			[
+				"exec",
+				"execute"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<div style=\"text-align: center; height: 75px; padding:1px;   text-transform:capitalize; background-color:#42a5f5; color:white\">\n     <h1 style=\"margin-bottom:-10px; \"><a style=\"text-decoration: none; color:white;\"href=\"/\">{{.Template}} Template - {{.Kind}}</a></h1>\n</div>",
+			"file": "layouts/header.html",
+			"file_size": 272,
+			"file_write_time": 131514353880000000,
+			"settings":
+			{
+				"buffer_size": 272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/partials/bootsth.html",
+			"settings":
+			{
+				"buffer_size": 476,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js\" integrity=\"sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4\" crossorigin=\"anonymous\"></script>\n",
+			"file": "layouts/partials/bootst.html",
+			"file_size": 444,
+			"file_write_time": 131514407700000000,
+			"settings":
+			{
+				"buffer_size": 387,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<html>\n<head>\n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n     <title>Document</title>\n</head>\n<body>\n     {{ partial \"header\" (dict \"Kind\" .Kind \"Template\" \"Single\") }}\n\n     <div style=\"margin:25px;\">\n          <h1>{{.Title}}</h1>\n          <div style=\"color:grey; font-size:16px;\">{{ dateFormat \"Monday, Jan 2, 2006\" .Date }}</div>\n          <div style=\"color:grey; font-size:16px;\">{{if .Params.author}}Author: {{.Params.Author}}{{end}}</div>\n          <div style=\"font-size:18px;\">{{.Content}}</div>\n     </div>\n     {{ partial \"bootst\" . }}\n     {{ partial \"footer\" . }}\n</body>\n</html>",
+			"file": "layouts/_defaults/single.html",
+			"file_size": 711,
+			"file_write_time": 131514356950000000,
+			"settings":
+			{
+				"buffer_size": 711,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/_default/list.html",
+			"settings":
+			{
+				"buffer_size": 1556,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/partials/sommaire.html",
+			"settings":
+			{
+				"buffer_size": 882,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/posts/hugo/hugo_raw_html.md",
+			"settings":
+			{
+				"buffer_size": 303,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/posts/R/matriciel.md",
+			"settings":
+			{
+				"buffer_size": 2926,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/ga-hugo-theme/layouts/partials/footer.html",
+			"settings":
+			{
+				"buffer_size": 298,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/partials/header.html",
+			"settings":
+			{
+				"buffer_size": 262,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/format.css",
+			"settings":
+			{
+				"buffer_size": 35,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": ".table-form {"
+			}
+		},
+		{
+			"file": "themes/ga-hugo-theme/layouts/_default/list.html",
+			"settings":
+			{
+				"buffer_size": 1427,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/_default/single.html",
+			"settings":
+			{
+				"buffer_size": 828,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n\n{{ block \"main\" . }}\n\n{{ end}}",
+			"file": "layouts/_default/baseof.html",
+			"file_size": 306,
+			"file_write_time": 131517948450000000,
+			"settings":
+			{
+				"buffer_size": 32,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\ntitle: \"Comparatif et superlatif\"\ndate: 2017-10-02T21:05:08+02:00\ndraft: true\ncategories: [\"neerlandais\"]\n---\n\n![explication](/comparatif.png)",
+			"file": "content/neerlandais/comparatif.md",
+			"file_size": 146,
+			"file_write_time": 131514450200000000,
+			"settings":
+			{
+				"buffer_size": 146,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"last_filter": "select colo",
+		"selected_items":
+		[
+			[
+				"select colo",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/igorstaroseltsev/Desktop/monblog",
+		"/Users/igorstaroseltsev/Desktop/monblog/content",
+		"/Users/igorstaroseltsev/Desktop/monblog/content/posts",
+		"/Users/igorstaroseltsev/Desktop/monblog/content/posts/R",
+		"/Users/igorstaroseltsev/Desktop/monblog/data",
+		"/Users/igorstaroseltsev/Desktop/monblog/layouts",
+		"/Users/igorstaroseltsev/Desktop/monblog/layouts/_default",
+		"/Users/igorstaroseltsev/Desktop/monblog/layouts/partials"
+	],
+	"file_history":
+	[
+		"/Users/igorstaroseltsev/Desktop/monblog/content/presentation/about.md",
+		"/Users/igorstaroseltsev/Desktop/monblog/content/neerlandais/het_woorden_forme.md",
+		"/Users/igorstaroseltsev/Desktop/monblog/content/neerlandais/het_ou_de.md",
+		"/Users/igorstaroseltsev/Desktop/monblog/layouts/_default/baseof.html",
+		"/Users/igorstaroseltsev/Desktop/monblog/content/dir1/b.md",
+		"/Users/igorstaroseltsev/Desktop/monblog/content/a.md",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/archetypes/default.md",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/config.toml",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/content/blog.md",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/layouts/_default/list.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/themes/go-hugo-theme/layouts/partials/header.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/layouts/partials/bootstrap.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/themes/go-hugo-theme/layouts/_default/list.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/themes/go-hugo-theme/layouts/_default/single.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/layouts/partials/sidebar2.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/layouts/_default/single.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/layouts/index2.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/content/dir1/c.md",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/layouts/dir1/single.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/layouts/_default/baseof.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/layouts/_default/list2.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/content/blog.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/themes/go-hugo-theme/layouts/partials/sidebar2.html",
+		"/Users/igorstaroseltsev/Desktop/site_test/first_site/themes/go-hugo-theme/layouts/partials/sidebar.html",
+		"/Users/igorstaroseltsev/Documents/rapport_EJ_SF2/stat.R",
+		"/Volumes/Lexar/fournisseurs.txt",
+		"/Users/igorstaroseltsev/Documents/CARTE_ACHAT2/rep_circo_carte_achat.R",
+		"/Users/igorstaroseltsev/Desktop/json",
+		"/Users/igorstaroseltsev/Desktop/datacamp_query",
+		"/Users/igorstaroseltsev/Desktop/exo",
+		"/Users/igorstaroseltsev/Desktop/Anomalies_corriger_impots_2017",
+		"/Users/igorstaroseltsev/Desktop/texte/discours2.txt",
+		"/Users/igorstaroseltsev/Desktop/texte/discours.txt",
+		"/Users/igorstaroseltsev/Documents/etude_circos2/mon-traitement.py",
+		"/Users/igorstaroseltsev/Documents/rapport_EJ_SF/traitement.py",
+		"/Users/igorstaroseltsev/Documents/rapport_EJ_SF/ME80FN_20170323.TXT",
+		"/Users/igorstaroseltsev/Documents/etude_circos/traitement.R",
+		"/Users/igorstaroseltsev/Desktop/indicateur-SF/traitement.R",
+		"/Users/igorstaroseltsev/Desktop/OneDrive/mesNotes/R/geographic_map/departements/departements-20170102.shx",
+		"/Users/igorstaroseltsev/Desktop/OneDrive/mesNotes/R/geographic_map/departements/departements-20170102.dbf",
+		"/Users/igorstaroseltsev/Desktop/OneDrive/mesNotes/R/geographic_map/departements/departements-20170102.shp",
+		"/Users/igorstaroseltsev/Documents/rapport_EJ_SF/classes.py",
+		"/Users/igorstaroseltsev/Documents/rapport_EJ_SF/ME80FN_TO_LISTEJ.py",
+		"/Volumes/Lexar/Portable_Python_2.7.5.1/PROJETEJSF/SF_POLE/ME80FN_Pole.py",
+		"/Users/igorstaroseltsev/Desktop/interet-moratoire/nbrIM.txt",
+		"/Users/igorstaroseltsev/Desktop/malette_chorus_/partie4_chorus/echantillon_chorus/ZLISTEJ_GLOB_20161003C.txt",
+		"/Users/igorstaroseltsev/Desktop/illustratot-to-povray.svg",
+		"/Users/igorstaroseltsev/Desktop/cfehome/src/cfehome/settings.py",
+		"/Users/igorstaroseltsev/Documents/site_maman/monAudioPrive/models.py",
+		"/Users/igorstaroseltsev/Documents/EMACSLIB/django_model_create_many.el",
+		"/Users/igorstaroseltsev/Documents/newblogmaman/blogmaman/posts/views.py",
+		"/Users/igorstaroseltsev/Documents/site_maman/mesPhotosPrivees/models.py",
+		"/Users/igorstaroseltsev/Desktop/tryangular/index.html",
+		"/Users/igorstaroseltsev/Documents/newblogmaman/blogmaman/posts/admin.py",
+		"/Users/igorstaroseltsev/Documents/newblogmaman/blogmaman/terminal.glue",
+		"/Users/igorstaroseltsev/Documents/newblogmaman/blogmaman/posts/urls.py",
+		"/Users/igorstaroseltsev/Documents/newblogmaman/blogmaman/blogmaman/urls.py",
+		"/Users/igorstaroseltsev/Documents/newblogmaman/blogmaman/posts/models.py",
+		"/Users/igorstaroseltsev/Documents/newblogmaman/blogmaman/templates/index.html",
+		"/Users/igorstaroseltsev/Documents/newblogmaman/blogmaman/blogmaman/settings.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/pygal_visualisation/tuto5_bar_complet/etude.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/pygal_visualisation/tuto5_bar_complet/change_color_bar.py",
+		"/Users/igorstaroseltsev/Documents/SF/SF_FACT/prog_python/resultats_tdb/graphe.svg",
+		"/Users/igorstaroseltsev/Documents/SF/SF_FACT/prog_python/resultats_tdb/table.html",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/pygal_visualisation/tuto4_style/courbe.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/vague2/match_clean/cm.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/csv/tutoriel/collections/Tuto3_OrderedDict/ordereddict.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto1bis_prise_en_main/code_fromcolumns.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto1bis_prise_en_main/code.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto1bis_prise_en_main/new_table.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto5_addfield/operations_colonnes.py",
+		"/Users/igorstaroseltsev/Documents/R/data/strings.R",
+		"/Users/igorstaroseltsev/Desktop/mesImages/test.txt",
+		"/Users/igorstaroseltsev/Desktop/mesImagestest.txt",
+		"/Users/igorstaroseltsev/Desktop/test.txt",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto1_values_csv/video/etl1.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/vague2/etl_plus/cm.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/vague2/aggregation/aggregation.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/vague2/aggregation/ag_code.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto1bis_prise_en_main/empty",
+		"/Users/igorstaroseltsev/Documents/R/maps/regions_2015_metropole_region.shp",
+		"/Users/igorstaroseltsev/Documents/projet_meetup/base.py",
+		"/Users/igorstaroseltsev/Documents/projet_meetup/base2.py",
+		"/Users/igorstaroseltsev/Documents/projet_meetup/distance.py",
+		"/Users/igorstaroseltsev/Documents/projet_meetup/importcsv.py",
+		"/Users/igorstaroseltsev/Documents/projet_meetup/res_etl.py",
+		"/Users/igorstaroseltsev/Documents/R/ggvis/local_variables",
+		"/Users/igorstaroseltsev/Documents/R/ggvis/scale2",
+		"/Users/igorstaroseltsev/Documents/R/ggvis/Axes",
+		"/Users/igorstaroseltsev/Desktop/image_plot/plot_750592360.svg",
+		"/Users/igorstaroseltsev/Documents/R/ggvis/properties_point",
+		"/Users/igorstaroseltsev/Documents/R/etude_carceral/importR.R",
+		"/Users/igorstaroseltsev/Documents/R/etude_carceral/etude_carceral.R",
+		"/Users/igorstaroseltsev/Documents/R/etude_carceral/scan.R",
+		"/Users/igorstaroseltsev/Documents/R/machine_learning/tapply",
+		"/Users/igorstaroseltsev/Documents/R/machine_learning/apply",
+		"/Users/igorstaroseltsev/Desktop/R/etude_carceral/import.py",
+		"/Users/igorstaroseltsev/Desktop/R/etude_carceral/sqlread.py",
+		"/Users/igorstaroseltsev/Desktop/R/UNdata/test.svg",
+		"/Volumes/USB DISK/tutoriels_igor_usb/etl/petl/tuto6_select_sort/biselect_sort.py",
+		"/Users/igorstaroseltsev/Desktop/projet/base2.py",
+		"/Users/igorstaroseltsev/Desktop/projet/base.py",
+		"/Users/igorstaroseltsev/Desktop/projet/distance.py",
+		"/Users/igorstaroseltsev/Desktop/first.jl",
+		"/Users/igorstaroseltsev/Desktop/ml.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/vague2/tuto1_intervalle/percentile.py",
+		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto6_function/ma_fonction.py",
+		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto7_input/inp.py",
+		"/Users/igorstaroseltsev/Documents/tutoriel_python_apprentissage/tuto5_for/etape1_liste_range/listes.py",
+		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto8_condition/cond.py",
+		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/inp.py",
+		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto5_for/sidesfill.py",
+		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto5_for/sides.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/fuzzy/fuz.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/fuzzy/fuz_choice.py",
+		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto4_while/spirale.py",
+		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto4_while/circle.py",
+		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto3_mouvement_variable/exercice_turtle.py",
+		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/classes/exercice_turtle.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto13_tableau_croise_dynamique/code.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto9_serie_scinder_rename/scinder.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto8_aggregation_complexe/agregation_complexe.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto3_cut_csv/select_cols.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/pygal_visualisation/tuto1_bar/first.svg",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto6_select_sort/biselect_sort.py",
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto10_doublons_additions_tables/doublons.py",
+		"/Users/igorstaroseltsev/Documents/apprentissage_python/turtle_python/code/premiers_codes/first.py",
+		"/Users/igorstaroseltsev/Documents/apprentissage_python/turtle_python/code/premiers_codes/drag.py"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "layouts/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "layouts/partials/bootsth.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								476,
+								476
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "layouts/partials/bootst.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "layouts/_defaults/single.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								695,
+								695
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "layouts/_default/list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1556,
+								1556
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 726.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "layouts/partials/sommaire.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								707,
+								707
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "content/posts/hugo/hugo_raw_html.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "content/posts/R/matriciel.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1315,
+								1315
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 621.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "themes/ga-hugo-theme/layouts/partials/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "layouts/partials/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "static/format.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".table-form {",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "themes/ga-hugo-theme/layouts/_default/list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								197
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 25.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "layouts/_default/single.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								376,
+								376
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "layouts/_default/baseof.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "content/neerlandais/comparatif.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "monblog.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

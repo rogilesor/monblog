@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/neerlandais/het_woorden_forme/</loc>
+    <lastmod>2017-10-02T21:06:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/neerlandais/comparatif/</loc>
+    <lastmod>2017-10-02T21:05:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/neerlandais/het_ou_de/</loc>
+    <lastmod>2017-10-02T19:41:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/presentation/about/</loc>
+    <lastmod>2017-10-02T19:38:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2017-10-02T21:06:48+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/neerlandais/</loc>
+    <lastmod>2017-10-02T21:06:48+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/neerlandais/</loc>
+    <lastmod>2017-10-02T21:06:48+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/presentation/</loc>
+    <lastmod>2017-10-02T19:38:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/presentation/</loc>
+    <lastmod>2017-10-02T19:38:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

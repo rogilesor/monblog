@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Oct 2017 21:06:48 +0200</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Identification des het woorden avec la syntaxe</title>
+      <link>http://example.org/neerlandais/het_woorden_forme/</link>
+      <pubDate>Mon, 02 Oct 2017 21:06:48 +0200</pubDate>
+      
+      <guid>http://example.org/neerlandais/het_woorden_forme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparatif et superlatif</title>
+      <link>http://example.org/neerlandais/comparatif/</link>
+      <pubDate>Mon, 02 Oct 2017 21:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/neerlandais/comparatif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifier les de woorden</title>
+      <link>http://example.org/neerlandais/het_ou_de/</link>
+      <pubDate>Mon, 02 Oct 2017 19:41:10 +0200</pubDate>
+      
+      <guid>http://example.org/neerlandais/het_ou_de/</guid>
+      <description>Approche selon la significatio</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/presentation/about/</link>
+      <pubDate>Mon, 02 Oct 2017 19:38:04 +0200</pubDate>
+      
+      <guid>http://example.org/presentation/about/</guid>
+      <description>Bonjour, c’est un essai de création de blog statique. Non pas que les sites dynamiques soient si difficiles à créer, mais les gestions de bases de données et les problèmes de sécurité ne sont pas compatibles avec un autre emploi à temps plein. Je m’intéresse donc à d’autres technologies qui permettent de perdre un minimum de temps.
+J’espère donc que la création d&amp;rsquo;un site statique sera moins chronophage et me permettra de faire vivre ce blog.</description>
+    </item>
+    
+  </channel>
+</rss>
