@@ -131,13 +131,13 @@
   </url>
   
   <url>
-    <loc>http://example.org/categories/neerlandais/</loc>
+    <loc>http://example.org/tags/neerlandais/</loc>
     <lastmod>2017-10-08T21:05:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/neerlandais/</loc>
+    <loc>http://example.org/categories/neerlandais/</loc>
     <lastmod>2017-10-08T21:05:08+02:00</lastmod>
     <priority>0</priority>
   </url>
