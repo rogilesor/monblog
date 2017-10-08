@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comparatif on My New Hugo Site</title>
+    <link>http://example.org/tags/comparatif/</link>
+    <description>Recent content in Comparatif on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Oct 2017 21:05:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/comparatif/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comparatif et superlatif</title>
+      <link>http://example.org/posts/neerlandais/comparatif/</link>
+      <pubDate>Mon, 02 Oct 2017 21:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/posts/neerlandais/comparatif/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

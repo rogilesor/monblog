@@ -71,6 +71,12 @@
   </url>
   
   <url>
+    <loc>http://example.org/tags/comparatif/</loc>
+    <lastmod>2017-10-02T21:05:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/tags/de/</loc>
     <lastmod>2017-10-08T21:05:08+02:00</lastmod>
     <priority>0</priority>
@@ -91,6 +97,12 @@
   <url>
     <loc>http://example.org/tags/grid/</loc>
     <lastmod>2017-10-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/het/</loc>
+    <lastmod>2017-10-02T21:06:48+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -187,6 +199,12 @@
   <url>
     <loc>http://example.org/categories/religion/</loc>
     <lastmod>2017-10-07T10:05:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/superlatif/</loc>
+    <lastmod>2017-10-02T21:05:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
