@@ -8,6 +8,16 @@
   </url>
   
   <url>
+    <loc>http://example.org/posts/r/matriciel/</loc>
+    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/r/change_colors/</loc>
+    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/posts/religion/berger/</loc>
     <lastmod>2017-10-07T10:05:08+02:00</lastmod>
   </url>
@@ -79,6 +89,12 @@
   </url>
   
   <url>
+    <loc>http://example.org/tags/grid/</loc>
+    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/tags/html/</loc>
     <lastmod>2017-10-05T21:05:08+02:00</lastmod>
     <priority>0</priority>
@@ -91,7 +107,9 @@
   </url>
   
   <url>
-    <loc>http://example.org/posts/r/matriciel/</loc>
+    <loc>http://example.org/tags/image/</loc>
+    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -113,13 +131,13 @@
   </url>
   
   <url>
-    <loc>http://example.org/tags/neerlandais/</loc>
+    <loc>http://example.org/categories/neerlandais/</loc>
     <lastmod>2017-10-08T21:05:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/neerlandais/</loc>
+    <loc>http://example.org/tags/neerlandais/</loc>
     <lastmod>2017-10-08T21:05:08+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -144,7 +162,19 @@
   
   <url>
     <loc>http://example.org/tags/programmation/</loc>
-    <lastmod>2017-10-05T21:05:08+02:00</lastmod>
+    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/r/</loc>
+    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/r_language/</loc>
+    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

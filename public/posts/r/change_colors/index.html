@@ -39,11 +39,57 @@
 
     <div class="col-sm-10">
      <div style="margin:25px;">
-          <h1>raw html sous hugo</h1>
-          <div style="color:grey; font-size:16px;">Thursday, Oct 5, 2017</div>
+          <h1>raster image change color</h1>
+          <div style="color:grey; font-size:16px;">Sunday, Oct 8, 2017</div>
           <div style="color:grey; font-size:16px;"></div>
-          <div style="font-size:18px;"><p>J’ai trouvé comment insérer du html dans un document markdown du générateur de site hugo : il faut juste entourer le code d’une balise div vide.</p>
-</div>
+          <div style="font-size:18px;"><p>Cet article présente comment transformer une image avec le language R. On isole une matrice qui associe à chaque pixel une couleur et on travaille sur cette matrice.</p>
+
+<p></p>
+
+<h2 id="première-étape-isoler-la-matrice-des-couleurs">Première étape : isoler la matrice des couleurs</h2>
+
+<p>Il faut importer l&rsquo;image avec la librairie png puis on utilise la fonction as.raster pour transformer l&rsquo;image en matrice.
+La matrice associe à chaque pixel une couleur. Cette matrice permettra par la suite de manipuler l&rsquo;image.</p>
+
+<pre><code class="language-r">library(jpeg)
+library(grid)
+library(png)
+
+test &lt;- readPNG(&quot;test.png&quot;)
+rtest &lt;- as.raster(test)
+dim(rtest)
+</code></pre>
+
+<pre><code>## [1] 245 206
+</code></pre>
+
+<pre><code class="language-r">rtest[12,24]
+</code></pre>
+
+<pre><code>##      [,1]     
+## [1,] &quot;#FFFFFF&quot;
+</code></pre>
+
+<h2 id="changer-les-couleurs-dans-la-matrice">Changer les couleurs dans la matrice</h2>
+
+<pre><code class="language-r">elt &lt;- rtest == &quot;#FFFFFF&quot;
+rtest[elt] &lt;- &quot;red&quot;
+head(rtest)
+</code></pre>
+
+<pre><code>## [1] &quot;red&quot; &quot;red&quot; &quot;red&quot; &quot;red&quot; &quot;red&quot; &quot;red&quot;
+</code></pre>
+
+<h2 id="tracer-la-nouvelle-image">Tracer la nouvelle image</h2>
+
+<p>on utilise pour ca la librairie grid.</p>
+
+<pre><code class="language-r">require(grid)
+pushViewport(viewport())
+grid.raster(rtest,y=1, just=&quot;top&quot;)
+</code></pre>
+
+<p><img src="/figure/color1-1.png" alt="plot of chunk color1" /></p></div>
      </div>
      </div>
 </div>
