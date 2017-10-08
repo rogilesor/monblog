@@ -7,4 +7,4 @@ categories: ["neerlandais"]
 
 Pour determiner les de woorden en fonction de la forme du mot.
 
-![de_woorden_forme](deWoorden_forme.png)
+![de_woorden_forme](/deWoorden_forme.png)

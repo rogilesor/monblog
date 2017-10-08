@@ -1,6 +1,8 @@
 ---
 title: "Image_matricielle_grid"
-output: pdf_document
+date: 2017-10-08
+tags: [ "programmation", "R", "grid", "image"]
+categories: ["r_language"]
 ---
 
 

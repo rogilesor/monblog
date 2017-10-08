@@ -6,10 +6,19 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Oct 2017 10:05:08 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 08 Oct 2017 21:05:08 +0200</lastBuildDate>
     
 	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Determiner les de woorden en fonction de la forme du mot</title>
+      <link>http://example.org/posts/neerlandais/de_woorden_forme/</link>
+      <pubDate>Sun, 08 Oct 2017 21:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/posts/neerlandais/de_woorden_forme/</guid>
+      <description>Pour determiner les de woorden en fonction de la forme du mot.</description>
+    </item>
     
     <item>
       <title>l&#39;étoile du berger</title>
@@ -56,7 +65,7 @@ Cette histoire commence avec une pièce poussiéreuse du temps de l’empire rom
       <pubDate>Mon, 02 Oct 2017 19:41:10 +0200</pubDate>
       
       <guid>http://example.org/posts/neerlandais/het_ou_de/</guid>
-      <description>Approche selon la significatio</description>
+      <description>Approche selon la signification.</description>
     </item>
     
     <item>

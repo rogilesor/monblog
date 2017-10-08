@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grammaire on My New Hugo Site</title>
+    <link>http://example.org/tags/grammaire/</link>
+    <description>Recent content in Grammaire on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Oct 2017 21:05:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/grammaire/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Determiner les de woorden en fonction de la forme du mot</title>
+      <link>http://example.org/posts/neerlandais/de_woorden_forme/</link>
+      <pubDate>Sun, 08 Oct 2017 21:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/posts/neerlandais/de_woorden_forme/</guid>
+      <description>Pour determiner les de woorden en fonction de la forme du mot.</description>
+    </item>
+    
+  </channel>
+</rss>
