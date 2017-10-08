@@ -6,9 +6,91 @@
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 07 Oct 2017 10:05:08 +0200</lastBuildDate>
     
 	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Astronomie</title>
+      <link>http://example.org/tags/astronomie/</link>
+      <pubDate>Sat, 07 Oct 2017 10:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/tags/astronomie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Berger</title>
+      <link>http://example.org/tags/berger/</link>
+      <pubDate>Sat, 07 Oct 2017 10:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/tags/berger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>http://example.org/tags/html/</link>
+      <pubDate>Thu, 05 Oct 2017 21:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://example.org/tags/markdown/</link>
+      <pubDate>Thu, 05 Oct 2017 21:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Naissance</title>
+      <link>http://example.org/tags/naissance/</link>
+      <pubDate>Sat, 07 Oct 2017 10:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/tags/naissance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Noel</title>
+      <link>http://example.org/tags/noel/</link>
+      <pubDate>Sat, 07 Oct 2017 10:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/tags/noel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programmation</title>
+      <link>http://example.org/tags/programmation/</link>
+      <pubDate>Thu, 05 Oct 2017 21:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/tags/programmation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raw</title>
+      <link>http://example.org/tags/raw/</link>
+      <pubDate>Thu, 05 Oct 2017 21:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/tags/raw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>http://example.org/tags/web/</link>
+      <pubDate>Thu, 05 Oct 2017 21:05:08 +0200</pubDate>
+      
+      <guid>http://example.org/tags/web/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

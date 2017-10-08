@@ -13,10 +13,10 @@
     
     <item>
       <title>About</title>
-      <link>http://example.org/presentation/about/</link>
+      <link>http://example.org/posts/presentation/about/</link>
       <pubDate>Mon, 02 Oct 2017 19:38:04 +0200</pubDate>
       
-      <guid>http://example.org/presentation/about/</guid>
+      <guid>http://example.org/posts/presentation/about/</guid>
       <description>Bonjour, c’est un essai de création de blog statique. Non pas que les sites dynamiques soient si difficiles à créer, mais les gestions de bases de données et les problèmes de sécurité ne sont pas compatibles avec un autre emploi à temps plein. Je m’intéresse donc à d’autres technologies qui permettent de perdre un minimum de temps.
 J’espère donc que la création d&amp;rsquo;un site statique sera moins chronophage et me permettra de faire vivre ce blog.</description>
     </item>

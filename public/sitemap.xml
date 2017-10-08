@@ -3,23 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/neerlandais/het_woorden_forme/</loc>
+    <loc>http://example.org/posts/religion/berger/</loc>
+    <lastmod>2017-10-07T10:05:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/hugo/hugo_raw_html/</loc>
+    <lastmod>2017-10-05T21:05:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/neerlandais/het_woorden_forme/</loc>
     <lastmod>2017-10-02T21:06:48+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/neerlandais/comparatif/</loc>
+    <loc>http://example.org/posts/neerlandais/comparatif/</loc>
     <lastmod>2017-10-02T21:05:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/neerlandais/het_ou_de/</loc>
+    <loc>http://example.org/posts/neerlandais/het_ou_de/</loc>
     <lastmod>2017-10-02T19:41:10+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/presentation/about/</loc>
+    <loc>http://example.org/posts/presentation/about/</loc>
     <lastmod>2017-10-02T19:38:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/astronomie/</loc>
+    <lastmod>2017-10-07T10:05:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/berger/</loc>
+    <lastmod>2017-10-07T10:05:08+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -28,14 +50,36 @@
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2017-10-02T21:06:48+02:00</lastmod>
+    <loc>http://example.org/tags/html/</loc>
+    <lastmod>2017-10-05T21:05:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/neerlandais/</loc>
-    <lastmod>2017-10-02T21:06:48+02:00</lastmod>
+    <loc>http://example.org/categories/hugo/</loc>
+    <lastmod>2017-10-05T21:05:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/r/matriciel/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/markdown/</loc>
+    <lastmod>2017-10-05T21:05:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2017-10-07T10:05:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/naissance/</loc>
+    <lastmod>2017-10-07T10:05:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,19 +90,50 @@
   </url>
   
   <url>
+    <loc>http://example.org/tags/noel/</loc>
+    <lastmod>2017-10-07T10:05:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2017-10-07T10:05:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/categories/presentation/</loc>
     <lastmod>2017-10-02T19:38:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/presentation/</loc>
-    <lastmod>2017-10-02T19:38:04+02:00</lastmod>
+    <loc>http://example.org/tags/programmation/</loc>
+    <lastmod>2017-10-05T21:05:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/raw/</loc>
+    <lastmod>2017-10-05T21:05:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/religion/</loc>
+    <lastmod>2017-10-07T10:05:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/tags/</loc>
+    <lastmod>2017-10-07T10:05:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/web/</loc>
+    <lastmod>2017-10-05T21:05:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   

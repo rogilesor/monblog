@@ -1,0 +1,158 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>1star</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="format.css">
+     <div class="container" style="margin-bottom:35px;margin-top: 35px;">
+  <div class="row justify-content-md-center">
+    <h1 style="margin-bottom:-10px;margin-left: 10px "><a style="text-decoration: none; color:blue;" href="/">1star</a></h1>
+  </div>
+</div>
+     
+
+</head>
+<body>
+     
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2" >
+		  <a class="btn btn-warning" href="/" role="button" style="width: 120;">Sommaire</a>
+          <br><br>
+          <a class="btn btn-primary" href="/categories/presentation/" role="button" style="width: 120;">Presentation</a>
+          <br><br>
+          <a class="btn btn-primary" href="/categories/neerlandais/" role="button" style="width: 120;">Néerlandais</a>
+          <br><br>
+          <a class="btn btn-primary" href="/categories/r_language/" role="button" style="width: 120;">R</a>
+          <br><br>
+          <a class="btn btn-primary" href="/categories/hugo/" role="button" style="width: 120;">Hugo</a>
+          <br><br>
+	  <a class="btn btn-primary" href="/categories/religion/" role="button" style="width: 120;">Religion</a>
+          <br><br>
+          <a class="btn btn-info" href="https://istarosel.wufoo.com/forms/z4jfkis1697grc/" role="button" style="width: 120;">Me contacter</a>
+</div>
+
+    <div class="col-sm-10">
+     <div style="margin:25px;">
+          <h1>Image_matricielle_grid</h1>
+          <div style="color:grey; font-size:16px;">Monday, Jan 1, 0001</div>
+          <div style="color:grey; font-size:16px;"></div>
+          <div style="font-size:18px;">
+
+<h2 id="définition">Définition</h2>
+
+<p>Les images matricielles sont très bien définies dans wikipédia :</p>
+
+<p>Une image matricielle, ou « carte de points » (de l&rsquo;anglais bitmap), est une image constituée d&rsquo;une matrice de points colorés. C&rsquo;est-à-dire, constituée d&rsquo;un tableau, d&rsquo;une grille, où chaque case possède une couleur qui lui est propre et est considérée comme un point. Il s&rsquo;agit donc d&rsquo;une juxtaposition de points de couleurs formant, dans leur ensemble, une image.</p>
+
+<p>En anglais on dit &ldquo;raster image&rdquo; pour image matricielle.</p>
+
+<h2 id="le-package-png">Le package png</h2>
+
+<p>Le package png est utilisé pour importer des images.</p>
+
+<pre><code class="language-r">require(png)
+setwd(&quot;~/Desktop/image_matricielle&quot;)
+test &lt;- readPNG(&quot;test.png&quot;)
+</code></pre>
+
+<h2 id="la-fonction-as-raster">La fonction as.raster</h2>
+
+<p>La fonction <strong>as.raster</strong> permet de transformer une image importée en matrice qui pourra ensuite être utilisée pour visualisation.</p>
+
+<pre><code class="language-r">rtest &lt;- as.raster(test)
+head(rtest)
+</code></pre>
+
+<pre><code>## [1] &quot;#FFFFFF&quot; &quot;#FFFFFF&quot; &quot;#FFFFFF&quot; &quot;#FFFFFF&quot; &quot;#FFFFFF&quot; &quot;#FFFFFF&quot;
+</code></pre>
+
+<h2 id="l-utilisation-de-la-fonction-grid-raster">L&rsquo;utilisation de la fonction grid.raster</h2>
+
+<p>La fonction grid.raster permet de tracer l&rsquo;image. C&rsquo;est une fonction du grid package, cela veut dire qu&rsquo;il faut d&rsquo;abord appeler un Viewport</p>
+
+<pre><code class="language-r">require(grid)
+pushViewport(viewport(angle=45))
+grid.raster(rtest, y=1, just=&quot;top&quot;)
+</code></pre>
+
+<p><img src="/figure/b1-1.png" alt="plot of chunk b1" /></p>
+
+<h2 id="un-gradient-de-couleur">Un gradient de couleur</h2>
+
+<p>Cela permet de nombreuses utilisations. Il est notamment possible de visualiser un gradient de couleur. Pour cela, il faudra d&rsquo;abord utiliser la fonction hcl.</p>
+
+<h3 id="la-fonction-hcl">La fonction hcl</h3>
+
+<p>crée un vecteur de couleur à partir de données &ldquo;hue, chroma, luminance&rdquo;</p>
+
+<pre><code class="language-r">hcl(0,80,seq(50,80,10))
+</code></pre>
+
+<pre><code>## [1] &quot;#C54E6D&quot; &quot;#E16A86&quot; &quot;#FE86A1&quot; &quot;#FFA2BC&quot;
+</code></pre>
+
+<p>Il est possible de spécifier les lignes et colonnes</p>
+
+<pre><code class="language-r">matrix(hcl(0, 80, seq(50, 80, 10)),nrow=4, ncol=5)
+</code></pre>
+
+<pre><code>##      [,1]      [,2]      [,3]      [,4]      [,5]     
+## [1,] &quot;#C54E6D&quot; &quot;#C54E6D&quot; &quot;#C54E6D&quot; &quot;#C54E6D&quot; &quot;#C54E6D&quot;
+## [2,] &quot;#E16A86&quot; &quot;#E16A86&quot; &quot;#E16A86&quot; &quot;#E16A86&quot; &quot;#E16A86&quot;
+## [3,] &quot;#FE86A1&quot; &quot;#FE86A1&quot; &quot;#FE86A1&quot; &quot;#FE86A1&quot; &quot;#FE86A1&quot;
+## [4,] &quot;#FFA2BC&quot; &quot;#FFA2BC&quot; &quot;#FFA2BC&quot; &quot;#FFA2BC&quot; &quot;#FFA2BC&quot;
+</code></pre>
+
+<h3 id="tracer-le-gradiant-de-couleur">Tracer le gradiant de couleur</h3>
+
+<p>A partir de là, il sera très facile de tracer le gradient de couleur</p>
+
+<pre><code class="language-r">redGradient &lt;- matrix(hcl(0, 80, seq(50, 80, 10)),nrow=4, ncol=5)
+grid.raster(redGradient)
+</code></pre>
+
+<p><img src="/figure/b2-1.png" alt="plot of chunk b2" /></p>
+
+<h2 id="le-package-lattice">Le package lattice</h2>
+
+<p>L&rsquo;utilisation avec le package lattice est très intéressante</p>
+
+<pre><code class="language-r">require(lattice)
+
+x &lt;- rep(5,12)
+x
+</code></pre>
+
+<pre><code>##  [1] 5 5 5 5 5 5 5 5 5 5 5 5
+</code></pre>
+
+<pre><code class="language-r">barchart(1:12 ~ x, origin=0, col=&quot;white&quot;,
+                  panel=function(x, y, ...) {
+                    panel.barchart(x, y, ...)
+                    grid.raster(t(1:10/11), x=0,
+                    width=x, y=y,
+                    default.units=&quot;native&quot;,
+                    just=&quot;left&quot;,
+                    height=unit(2/37,&quot;npc&quot;))})
+</code></pre>
+
+<p><img src="/figure/b3-1.png" alt="plot of chunk b3" /></p>
+</div>
+     </div>
+     </div>
+</div>
+</div>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="format.css">
+     <div style="height:35px;"></div>
+<div style=" position:fixed; color: white; height:35px; background-color:#757575; bottom:0px; text-align:center; width:99%">
+     <p style="margin:10px; "><a style="color: white; " target="_blank" href="http://www.giraffeacademy.com/">1star Academy</a> </p>
+</div>
+
+</body>
+</html>

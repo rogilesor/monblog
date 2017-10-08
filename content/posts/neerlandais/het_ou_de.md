@@ -5,6 +5,6 @@ draft: true
 categories: ["neerlandais"]
 ---
 
-Approche selon la significatio 
+Approche selon la signification.
 
 ![explication](/deWoorden.png)
