@@ -4,8 +4,6 @@
   <div class="row">
     {{ partial "sommaire"}}
     <div class="col-sm-10">
-<h5 style="text-align: right;">{{ len (where .Site.RegularPages "Section" "!=" "") }} articles </h5>
-      
       {{ range .Pages }}
           <div style="border: 1px solid black; margin:10px; padding:10px; ">
                <div style="font-size:20px;">
