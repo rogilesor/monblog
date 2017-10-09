@@ -4,7 +4,7 @@
   <div class="row">
     {{ partial "sommaire"}}
     <div class="col-sm-10">
-       {{ range .Paginator.Pages }}
+      {{ range .Pages }}
           <div style="border: 1px solid black; margin:10px; padding:10px; ">
                <div style="font-size:20px;">
                     <a href="{{.URL}}">{{.Title}}</a>
@@ -15,12 +15,12 @@
                <div style="color:grey; font-size:16px;">{{ if .Params.moods }}<strong>Moods:</strong> {{range .Params.moods}}<a href="{{ "/moods/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
                <p style="font-size:18px;">{{.Summary}}</p>
           </div>
-	  {{ end }}
-      <h3>{{ template "_internal/pagination.html" . }}</h3>
+     {{ end }}
+TEST TERMS
     </div>
   </div>
-</div>
-   
+</div> 
+
 {{ partial "bootst" . }}
-{{ partial "footer" . }}
+     {{ partial "footer" . }}
 {{end}}
