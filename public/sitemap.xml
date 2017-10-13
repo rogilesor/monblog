@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/posts/neerlandais/adjectif_qualificatif/</loc>
+    <lastmod>2017-10-13T22:26:24+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/posts/neerlandais/de_woorden_forme/</loc>
     <lastmod>2017-10-08T21:05:08+02:00</lastmod>
   </url>
@@ -48,6 +53,12 @@
   </url>
   
   <url>
+    <loc>http://example.org/tags/adjectif/</loc>
+    <lastmod>2017-10-13T22:26:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/tags/article/</loc>
     <lastmod>2017-10-08T21:05:08+02:00</lastmod>
     <priority>0</priority>
@@ -56,6 +67,12 @@
   <url>
     <loc>http://example.org/tags/astronomie/</loc>
     <lastmod>2017-10-07T10:05:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/attribut/</loc>
+    <lastmod>2017-10-13T22:26:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,6 +100,12 @@
   </url>
   
   <url>
+    <loc>http://example.org/tags/epithete/</loc>
+    <lastmod>2017-10-13T22:26:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/tags/forme/</loc>
     <lastmod>2017-10-08T21:05:08+02:00</lastmod>
     <priority>0</priority>
@@ -90,7 +113,7 @@
   
   <url>
     <loc>http://example.org/tags/grammaire/</loc>
-    <lastmod>2017-10-08T21:05:08+02:00</lastmod>
+    <lastmod>2017-10-13T22:26:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -132,7 +155,7 @@
   
   <url>
     <loc>http://example.org/</loc>
-    <lastmod>2017-10-08T21:05:08+02:00</lastmod>
+    <lastmod>2017-10-13T22:26:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -144,13 +167,13 @@
   
   <url>
     <loc>http://example.org/tags/neerlandais/</loc>
-    <lastmod>2017-10-08T21:05:08+02:00</lastmod>
+    <lastmod>2017-10-13T22:26:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/categories/neerlandais/</loc>
-    <lastmod>2017-10-08T21:05:08+02:00</lastmod>
+    <lastmod>2017-10-13T22:26:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -162,7 +185,7 @@
   
   <url>
     <loc>http://example.org/posts/</loc>
-    <lastmod>2017-10-08T21:05:08+02:00</lastmod>
+    <lastmod>2017-10-13T22:26:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -210,7 +233,7 @@
   
   <url>
     <loc>http://example.org/tags/</loc>
-    <lastmod>2017-10-08T21:05:08+02:00</lastmod>
+    <lastmod>2017-10-13T22:26:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
