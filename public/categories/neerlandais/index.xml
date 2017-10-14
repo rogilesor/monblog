@@ -6,10 +6,23 @@
     <description>Recent content in Neerlandais on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Oct 2017 22:26:24 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 14 Oct 2017 16:47:17 +0200</lastBuildDate>
     
 	<atom:link href="http://example.org/categories/neerlandais/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Interactif_adjectif</title>
+      <link>http://example.org/posts/neerlandais/interactif_adjectif/</link>
+      <pubDate>Sat, 14 Oct 2017 16:47:17 +0200</pubDate>
+      
+      <guid>http://example.org/posts/neerlandais/interactif_adjectif/</guid>
+      <description>&lt;p&gt;Ce document présente les règles d&amp;rsquo;accord de l&amp;rsquo;adjectif qualificatif en néerlandais.&lt;/p&gt;
+
+&lt;p&gt;Il est interactif, on peut cliquer sur certaines parties pour avoir des compléments (orthographe, exemple, parties soulignées)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Adjectif_qualificatif</title>
