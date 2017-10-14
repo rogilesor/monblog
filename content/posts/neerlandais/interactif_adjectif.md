@@ -2,6 +2,8 @@
 title: "Interactif_adjectif"
 date: 2017-10-14T16:47:17+02:00
 draft: true
+tags: ["neerlandais","grammaire","adjectif","epithete","attribut"]
+categories: ["neerlandais"]
 ---
 
 Ce document présente les règles d'accord de l'adjectif qualificatif en néerlandais.
