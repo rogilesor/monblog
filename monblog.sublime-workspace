@@ -214,19 +214,20 @@
 			"file": "layouts/partials/bootsth.html",
 			"settings":
 			{
-				"buffer_size": 476,
+				"buffer_size": 807,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js\" integrity=\"sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4\" crossorigin=\"anonymous\"></script>\n",
+			"contents": "\n<script type=\"text/javascript\" src=\"/js/setup.js\"></script>\n",
 			"file": "layouts/partials/bootst.html",
-			"file_size": 444,
-			"file_write_time": 131514407700000000,
+			"file_size": 866,
+			"file_write_time": 131524734340000000,
 			"settings":
 			{
-				"buffer_size": 387,
+				"buffer_size": 61,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -245,7 +246,7 @@
 			"file": "layouts/_default/list.html",
 			"settings":
 			{
-				"buffer_size": 909,
+				"buffer_size": 1353,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -263,7 +264,34 @@
 			"file": "content/posts/R/change_colors.md",
 			"settings":
 			{
-				"buffer_size": 1225,
+				"buffer_size": 1167,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/posts/neerlandais/interactif_adjectif.md",
+			"settings":
+			{
+				"buffer_size": 16548,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/posts/neerlandais/adjectif_qualificatif.md",
+			"settings":
+			{
+				"buffer_size": 412,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/js/setup.js",
+			"settings":
+			{
+				"buffer_size": 1734,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -273,15 +301,6 @@
 			"settings":
 			{
 				"buffer_size": 5357,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content/posts/religion/berger.md~",
-			"settings":
-			{
-				"buffer_size": 5199,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -299,7 +318,7 @@
 			"file": "content/posts/R/matriciel.md",
 			"settings":
 			{
-				"buffer_size": 3036,
+				"buffer_size": 2996,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -308,7 +327,7 @@
 			"file": "content/posts/neerlandais/comparatif.md",
 			"settings":
 			{
-				"buffer_size": 209,
+				"buffer_size": 206,
 				"line_ending": "Unix"
 			}
 		},
@@ -331,16 +350,6 @@
 			}
 		},
 		{
-			"file": "static/format.css",
-			"settings":
-			{
-				"buffer_size": 35,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": ".table-form {"
-			}
-		},
-		{
 			"file": "themes/ga-hugo-theme/layouts/_default/list.html",
 			"settings":
 			{
@@ -353,7 +362,7 @@
 			"file": "layouts/_default/single.html",
 			"settings":
 			{
-				"buffer_size": 408,
+				"buffer_size": 562,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -362,7 +371,15 @@
 			"file": "layouts/_default/baseof.html",
 			"settings":
 			{
-				"buffer_size": 632,
+				"buffer_size": 704,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -433,6 +450,8 @@
 		"/Users/igorstaroseltsev/Desktop/monblog/layouts/_default",
 		"/Users/igorstaroseltsev/Desktop/monblog/layouts/partials",
 		"/Users/igorstaroseltsev/Desktop/monblog/static",
+		"/Users/igorstaroseltsev/Desktop/monblog/static/css",
+		"/Users/igorstaroseltsev/Desktop/monblog/static/js",
 		"/Users/igorstaroseltsev/Desktop/monblog/themes",
 		"/Users/igorstaroseltsev/Desktop/monblog/themes/ga-hugo-theme",
 		"/Users/igorstaroseltsev/Desktop/monblog/themes/ga-hugo-theme/archetypes",
@@ -442,6 +461,7 @@
 	],
 	"file_history":
 	[
+		"/Users/igorstaroseltsev/Desktop/monblog/static/format.css",
 		"/Users/igorstaroseltsev/Desktop/monblog/content/presentation/about.md",
 		"/Users/igorstaroseltsev/Desktop/monblog/content/neerlandais/het_woorden_forme.md",
 		"/Users/igorstaroseltsev/Desktop/monblog/content/neerlandais/het_ou_de.md",
@@ -568,12 +588,11 @@
 		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/pygal_visualisation/tuto1_bar/first.svg",
 		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto6_select_sort/biselect_sort.py",
 		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto10_doublons_additions_tables/doublons.py",
-		"/Users/igorstaroseltsev/Documents/apprentissage_python/turtle_python/code/premiers_codes/first.py",
-		"/Users/igorstaroseltsev/Documents/apprentissage_python/turtle_python/code/premiers_codes/drag.py"
+		"/Users/igorstaroseltsev/Documents/apprentissage_python/turtle_python/code/premiers_codes/first.py"
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
@@ -587,6 +606,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"image"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -604,7 +624,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 18,
 			"sheets":
 			[
 				{
@@ -633,7 +653,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
@@ -642,15 +662,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 476,
+						"buffer_size": 807,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								476,
-								476
+								806,
+								806
 							]
 						],
 						"settings":
@@ -662,7 +682,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -671,15 +691,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 387,
+						"buffer_size": 61,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								387,
-								387
+								0,
+								0
 							]
 						],
 						"settings":
@@ -691,7 +711,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -722,7 +742,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
@@ -731,15 +751,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 909,
+						"buffer_size": 1353,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								792,
-								792
+								0,
+								0
 							]
 						],
 						"settings":
@@ -750,10 +770,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 644.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -769,8 +789,8 @@
 						"selection":
 						[
 							[
-								18,
-								18
+								635,
+								635
 							]
 						],
 						"settings":
@@ -781,10 +801,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 146.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -793,15 +813,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1225,
+						"buffer_size": 1167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1203,
-								1203
+								302,
+								313
 							]
 						],
 						"settings":
@@ -810,14 +830,103 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1251.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
+					"file": "content/posts/neerlandais/interactif_adjectif.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "content/posts/neerlandais/adjectif_qualificatif.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "static/js/setup.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1734,
+								1734
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 697.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "content/posts/religion/berger.md",
 					"semi_transient": false,
 					"settings":
@@ -842,39 +951,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "content/posts/religion/berger.md~",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 5199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "content/posts/hugo/hugo_raw_html.md",
 					"semi_transient": false,
 					"settings":
@@ -899,24 +980,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "content/posts/R/matriciel.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3036,
+						"buffer_size": 2996,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								125,
-								125
+								0,
+								0
 							]
 						],
 						"settings":
@@ -928,24 +1009,24 @@
 						"translation.y": 575.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "content/posts/neerlandais/comparatif.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 209,
+						"buffer_size": 206,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								69,
-								38
+								0,
+								0
 							]
 						],
 						"settings":
@@ -957,11 +1038,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "themes/ga-hugo-theme/layouts/partials/footer.html",
 					"semi_transient": false,
 					"settings":
@@ -986,11 +1067,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 15,
 					"file": "layouts/partials/header.html",
 					"semi_transient": false,
 					"settings":
@@ -1015,40 +1096,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "static/format.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 35,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35,
-								35
-							]
-						],
-						"settings":
-						{
-							"auto_name": ".table-form {",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "themes/ga-hugo-theme/layouts/_default/list.html",
 					"semi_transient": false,
 					"settings":
@@ -1075,24 +1127,24 @@
 						"translation.y": 25.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "layouts/_default/single.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 408,
+						"buffer_size": 562,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								376,
-								376
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1106,24 +1158,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "layouts/_default/baseof.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 632,
+						"buffer_size": 704,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								525,
-								525
+								328,
+								328
 							]
 						],
 						"settings":
@@ -1135,11 +1187,39 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/igorstaroseltsev/Desktop/monblog/static/css",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
 					"file": "content/neerlandais/comparatif.md",
 					"semi_transient": false,
 					"settings":
@@ -1164,7 +1244,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 17,
 					"type": "text"
 				}
 			]
