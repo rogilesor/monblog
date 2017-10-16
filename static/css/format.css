@@ -7,5 +7,14 @@
 }
 
 
+li a:hover { 
+	font-weight:bold;
+	background-color: yellow;
+	
+}
+
+.maclasse { 
+	color: orange;
+}
 
 
