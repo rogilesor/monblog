@@ -2,6 +2,19 @@
     {{ partial "sommaire3" }}
     {{ range .Paginator.Pages }}
           <div style="border: 1px solid black; margin:10px; padding:10px; ">
+            
+            {{ if eq (index .Params.categories 0) "neerlandais"}}
+            <img src="{{ .Site.BaseURL }}/logo-orange.gif" title="logo" >
+            {{ else if eq (index .Params.categories 0) "r_language"}}
+            <img src="{{ .Site.BaseURL }}/logo-bleu.gif" title="logo" >
+            {{ else if eq (index .Params.categories 0) "hugo"}}
+            <img src="{{ .Site.BaseURL }}/logo-magenta.gif" title="logo" >
+            {{ else if eq (index .Params.categories 0) "religion"}}
+            <img src="{{ .Site.BaseURL }}/logo-turquoise.gif" title="logo" >
+            {{ else if eq (index .Params.categories 0) "presentation"}}
+            <img src="{{ .Site.BaseURL }}/logo-vert.gif" title="logo" >
+            {{end}}
+
                <div style="font-size:20px;">
                     <a href="{{.URL}}">{{.Title}}</a>
                </div>
