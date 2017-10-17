@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background-color"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
 				"marg",
 				"margin-left"
 			],
@@ -245,7 +253,16 @@
 			"file": "layouts/_default/list.html",
 			"settings":
 			{
-				"buffer_size": 1254,
+				"buffer_size": 1255,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/_default/single.html",
+			"settings":
+			{
+				"buffer_size": 1405,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -258,7 +275,6 @@
 			"settings":
 			{
 				"buffer_size": 999,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -266,16 +282,8 @@
 			"file": "layouts/partials/sommaire3.html",
 			"settings":
 			{
-				"buffer_size": 1728,
+				"buffer_size": 1727,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "themes/ga-hugo-theme/layouts/partials/header.html",
-			"settings":
-			{
-				"buffer_size": 272,
 				"line_ending": "Unix"
 			}
 		},
@@ -283,105 +291,7 @@
 			"file": "static/css/format.css",
 			"settings":
 			{
-				"buffer_size": 67,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content/posts/R/change_colors.md",
-			"settings":
-			{
-				"buffer_size": 1167,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content/posts/neerlandais/interactif_adjectif.md",
-			"settings":
-			{
-				"buffer_size": 16548,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "static/js/setup.js",
-			"settings":
-			{
-				"buffer_size": 1734,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content/posts/religion/berger.md",
-			"settings":
-			{
-				"buffer_size": 5357,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content/posts/hugo/hugo_raw_html.md",
-			"settings":
-			{
-				"buffer_size": 303,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content/posts/R/matriciel.md",
-			"settings":
-			{
-				"buffer_size": 2996,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content/posts/neerlandais/comparatif.md",
-			"settings":
-			{
-				"buffer_size": 206,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "themes/ga-hugo-theme/layouts/partials/footer.html",
-			"settings":
-			{
-				"buffer_size": 298,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "layouts/partials/header.html",
-			"settings":
-			{
-				"buffer_size": 169,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "themes/ga-hugo-theme/layouts/_default/list.html",
-			"settings":
-			{
-				"buffer_size": 1427,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "layouts/_default/single.html",
-			"settings":
-			{
-				"buffer_size": 464,
+				"buffer_size": 196,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -390,26 +300,8 @@
 			"file": "layouts/_default/baseof.html",
 			"settings":
 			{
-				"buffer_size": 736,
+				"buffer_size": 1201,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "---\ntitle: \"Comparatif et superlatif\"\ndate: 2017-10-02T21:05:08+02:00\ndraft: true\ncategories: [\"neerlandais\"]\n---\n\n![explication](/comparatif.png)",
-			"file": "content/neerlandais/comparatif.md",
-			"file_size": 146,
-			"file_write_time": 131514450200000000,
-			"settings":
-			{
-				"buffer_size": 146,
 				"line_ending": "Unix"
 			}
 		}
@@ -480,11 +372,23 @@
 	],
 	"file_history":
 	[
+		"/Users/igorstaroseltsev/Desktop/monblog/content/neerlandais/comparatif.md",
+		"/Users/igorstaroseltsev/Desktop/monblog/layouts/_default/baseof.html",
+		"/Users/igorstaroseltsev/Desktop/monblog/layouts/_default/single.html",
+		"/Users/igorstaroseltsev/Desktop/monblog/themes/ga-hugo-theme/layouts/_default/list.html",
+		"/Users/igorstaroseltsev/Desktop/monblog/layouts/partials/header.html",
+		"/Users/igorstaroseltsev/Desktop/monblog/themes/ga-hugo-theme/layouts/partials/footer.html",
+		"/Users/igorstaroseltsev/Desktop/monblog/content/posts/neerlandais/comparatif.md",
+		"/Users/igorstaroseltsev/Desktop/monblog/content/posts/R/matriciel.md",
+		"/Users/igorstaroseltsev/Desktop/monblog/content/posts/hugo/hugo_raw_html.md",
+		"/Users/igorstaroseltsev/Desktop/monblog/content/posts/religion/berger.md",
+		"/Users/igorstaroseltsev/Desktop/monblog/static/js/setup.js",
+		"/Users/igorstaroseltsev/Desktop/monblog/content/posts/neerlandais/interactif_adjectif.md",
+		"/Users/igorstaroseltsev/Desktop/monblog/content/posts/R/change_colors.md",
 		"/Users/igorstaroseltsev/Desktop/monblog/static/format.css",
 		"/Users/igorstaroseltsev/Desktop/monblog/content/presentation/about.md",
 		"/Users/igorstaroseltsev/Desktop/monblog/content/neerlandais/het_woorden_forme.md",
 		"/Users/igorstaroseltsev/Desktop/monblog/content/neerlandais/het_ou_de.md",
-		"/Users/igorstaroseltsev/Desktop/monblog/layouts/_default/baseof.html",
 		"/Users/igorstaroseltsev/Desktop/monblog/content/dir1/b.md",
 		"/Users/igorstaroseltsev/Desktop/monblog/content/a.md",
 		"/Users/igorstaroseltsev/Desktop/site_test/first_site/archetypes/default.md",
@@ -595,19 +499,7 @@
 		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto5_for/sidesfill.py",
 		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto5_for/sides.py",
 		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/fuzzy/fuz.py",
-		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/fuzzy/fuz_choice.py",
-		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto4_while/spirale.py",
-		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto4_while/circle.py",
-		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/tuto3_mouvement_variable/exercice_turtle.py",
-		"/Users/igorstaroseltsev/Documents/tutoriel_python_divers/classes/exercice_turtle.py",
-		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto13_tableau_croise_dynamique/code.py",
-		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto9_serie_scinder_rename/scinder.py",
-		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto8_aggregation_complexe/agregation_complexe.py",
-		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto3_cut_csv/select_cols.py",
-		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/pygal_visualisation/tuto1_bar/first.svg",
-		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto6_select_sort/biselect_sort.py",
-		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/etl/petl/tuto10_doublons_additions_tables/doublons.py",
-		"/Users/igorstaroseltsev/Documents/apprentissage_python/turtle_python/code/premiers_codes/first.py"
+		"/Users/igorstaroseltsev/Documents/projet_livre/tutoriels_igor_ordi/fuzzy/fuz_choice.py"
 	],
 	"find":
 	{
@@ -672,7 +564,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -701,7 +593,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -730,7 +622,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -761,7 +653,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -770,15 +662,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1254,
+						"buffer_size": 1255,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17,
-								17
+								1190,
+								1190
 							]
 						],
 						"settings":
@@ -789,14 +681,43 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 436.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
+					"file": "layouts/_default/single.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								404,
+								417
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "layouts/partials/sommaire.html",
 					"semi_transient": false,
 					"settings":
@@ -827,20 +748,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "layouts/partials/sommaire3.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1728,
+						"buffer_size": 1727,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								85,
-								85
+								673,
+								673
 							]
 						],
 						"settings":
@@ -851,38 +772,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 324.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "themes/ga-hugo-theme/layouts/partials/header.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 272,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -891,15 +784,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 67,
+						"buffer_size": 196,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								64,
-								64
+								176,
+								176
 							]
 						],
 						"settings":
@@ -915,345 +808,19 @@
 				},
 				{
 					"buffer": 9,
-					"file": "content/posts/R/change_colors.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1167,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								302,
-								313
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "content/posts/neerlandais/interactif_adjectif.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16548,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								171,
-								171
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "static/js/setup.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1734,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1734,
-								1734
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 697.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "content/posts/religion/berger.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5357,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30,
-								30
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "content/posts/hugo/hugo_raw_html.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 303,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								301,
-								301
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "content/posts/R/matriciel.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2996,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 575.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "content/posts/neerlandais/comparatif.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 206,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "themes/ga-hugo-theme/layouts/partials/footer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 298,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								286,
-								286
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "layouts/partials/header.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 169,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								169,
-								169
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "themes/ga-hugo-theme/layouts/_default/list.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1427,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								189,
-								197
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 5,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "layouts/_default/single.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 464,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 20,
 					"file": "layouts/_default/baseof.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 736,
+						"buffer_size": 1201,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								649,
-								649
+								1098,
+								1098
 							]
 						],
 						"settings":
@@ -1264,67 +831,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 302.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"default_dir": "/Users/igorstaroseltsev/Desktop/monblog/static/css",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "content/neerlandais/comparatif.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 146,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								113,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
