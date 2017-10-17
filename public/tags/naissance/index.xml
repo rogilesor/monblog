@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Naissance on My New Hugo Site</title>
-    <link>http://example.org/tags/naissance/</link>
+    <link>http://blog1star.com/tags/naissance/</link>
     <description>Recent content in Naissance on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Oct 2017 10:05:08 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/naissance/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog1star.com/tags/naissance/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>l&#39;étoile du berger</title>
-      <link>http://example.org/posts/religion/berger/</link>
+      <link>http://blog1star.com/posts/religion/berger/</link>
       <pubDate>Sat, 07 Oct 2017 10:05:08 +0200</pubDate>
       
-      <guid>http://example.org/posts/religion/berger/</guid>
+      <guid>http://blog1star.com/posts/religion/berger/</guid>
       <description>Jupiter a montré aux sages le chemin vers Jésus
 Une constellation astronomique exceptionnelle explique l’étoile du berger.
 Que vous le croyiez ou non, l’étoile de Bethléem était bien réelle. Pour le moins, c’est ce que dit l’astronome américain Michael Molnar. La planète Jupiter était alors dans la constellation du bélier, une constellation unique avec une signification symbolique.

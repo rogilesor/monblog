@@ -2,264 +2,264 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My New Hugo Site</title>
-    <link>http://example.org/tags/</link>
+    <link>http://blog1star.com/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Oct 2017 16:47:17 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog1star.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Adjectif</title>
-      <link>http://example.org/tags/adjectif/</link>
+      <link>http://blog1star.com/tags/adjectif/</link>
       <pubDate>Sat, 14 Oct 2017 16:47:17 +0200</pubDate>
       
-      <guid>http://example.org/tags/adjectif/</guid>
+      <guid>http://blog1star.com/tags/adjectif/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Article</title>
-      <link>http://example.org/tags/article/</link>
+      <link>http://blog1star.com/tags/article/</link>
       <pubDate>Sun, 08 Oct 2017 21:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/article/</guid>
+      <guid>http://blog1star.com/tags/article/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Astronomie</title>
-      <link>http://example.org/tags/astronomie/</link>
+      <link>http://blog1star.com/tags/astronomie/</link>
       <pubDate>Sat, 07 Oct 2017 10:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/astronomie/</guid>
+      <guid>http://blog1star.com/tags/astronomie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Attribut</title>
-      <link>http://example.org/tags/attribut/</link>
+      <link>http://blog1star.com/tags/attribut/</link>
       <pubDate>Sat, 14 Oct 2017 16:47:17 +0200</pubDate>
       
-      <guid>http://example.org/tags/attribut/</guid>
+      <guid>http://blog1star.com/tags/attribut/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Berger</title>
-      <link>http://example.org/tags/berger/</link>
+      <link>http://blog1star.com/tags/berger/</link>
       <pubDate>Sat, 07 Oct 2017 10:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/berger/</guid>
+      <guid>http://blog1star.com/tags/berger/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comparatif</title>
-      <link>http://example.org/tags/comparatif/</link>
+      <link>http://blog1star.com/tags/comparatif/</link>
       <pubDate>Mon, 02 Oct 2017 21:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/comparatif/</guid>
+      <guid>http://blog1star.com/tags/comparatif/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conjugaison</title>
-      <link>http://example.org/tags/conjugaison/</link>
+      <link>http://blog1star.com/tags/conjugaison/</link>
       <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/conjugaison/</guid>
+      <guid>http://blog1star.com/tags/conjugaison/</guid>
       <description></description>
     </item>
     
     <item>
       <title>De</title>
-      <link>http://example.org/tags/de/</link>
+      <link>http://blog1star.com/tags/de/</link>
       <pubDate>Sun, 08 Oct 2017 21:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/de/</guid>
+      <guid>http://blog1star.com/tags/de/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epithete</title>
-      <link>http://example.org/tags/epithete/</link>
+      <link>http://blog1star.com/tags/epithete/</link>
       <pubDate>Sat, 14 Oct 2017 16:47:17 +0200</pubDate>
       
-      <guid>http://example.org/tags/epithete/</guid>
+      <guid>http://blog1star.com/tags/epithete/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Formation</title>
-      <link>http://example.org/tags/formation/</link>
+      <link>http://blog1star.com/tags/formation/</link>
       <pubDate>Tue, 17 Oct 2017 15:09:44 +0200</pubDate>
       
-      <guid>http://example.org/tags/formation/</guid>
+      <guid>http://blog1star.com/tags/formation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Forme</title>
-      <link>http://example.org/tags/forme/</link>
+      <link>http://blog1star.com/tags/forme/</link>
       <pubDate>Sun, 08 Oct 2017 21:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/forme/</guid>
+      <guid>http://blog1star.com/tags/forme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Forts</title>
-      <link>http://example.org/tags/forts/</link>
+      <link>http://blog1star.com/tags/forts/</link>
       <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/forts/</guid>
+      <guid>http://blog1star.com/tags/forts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grammaire</title>
-      <link>http://example.org/tags/grammaire/</link>
+      <link>http://blog1star.com/tags/grammaire/</link>
       <pubDate>Tue, 17 Oct 2017 15:09:44 +0200</pubDate>
       
-      <guid>http://example.org/tags/grammaire/</guid>
+      <guid>http://blog1star.com/tags/grammaire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grid</title>
-      <link>http://example.org/tags/grid/</link>
+      <link>http://blog1star.com/tags/grid/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/grid/</guid>
+      <guid>http://blog1star.com/tags/grid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Het</title>
-      <link>http://example.org/tags/het/</link>
+      <link>http://blog1star.com/tags/het/</link>
       <pubDate>Mon, 02 Oct 2017 21:06:48 +0200</pubDate>
       
-      <guid>http://example.org/tags/het/</guid>
+      <guid>http://blog1star.com/tags/het/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Html</title>
-      <link>http://example.org/tags/html/</link>
+      <link>http://blog1star.com/tags/html/</link>
       <pubDate>Thu, 05 Oct 2017 21:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/html/</guid>
+      <guid>http://blog1star.com/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Image</title>
-      <link>http://example.org/tags/image/</link>
+      <link>http://blog1star.com/tags/image/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/image/</guid>
+      <guid>http://blog1star.com/tags/image/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>http://example.org/tags/markdown/</link>
+      <link>http://blog1star.com/tags/markdown/</link>
       <pubDate>Thu, 05 Oct 2017 21:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/markdown/</guid>
+      <guid>http://blog1star.com/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Naissance</title>
-      <link>http://example.org/tags/naissance/</link>
+      <link>http://blog1star.com/tags/naissance/</link>
       <pubDate>Sat, 07 Oct 2017 10:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/naissance/</guid>
+      <guid>http://blog1star.com/tags/naissance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Neerlandais</title>
-      <link>http://example.org/tags/neerlandais/</link>
+      <link>http://blog1star.com/tags/neerlandais/</link>
       <pubDate>Tue, 17 Oct 2017 15:09:44 +0200</pubDate>
       
-      <guid>http://example.org/tags/neerlandais/</guid>
+      <guid>http://blog1star.com/tags/neerlandais/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Noel</title>
-      <link>http://example.org/tags/noel/</link>
+      <link>http://blog1star.com/tags/noel/</link>
       <pubDate>Sat, 07 Oct 2017 10:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/noel/</guid>
+      <guid>http://blog1star.com/tags/noel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Passe</title>
-      <link>http://example.org/tags/passe/</link>
+      <link>http://blog1star.com/tags/passe/</link>
       <pubDate>Tue, 17 Oct 2017 15:09:44 +0200</pubDate>
       
-      <guid>http://example.org/tags/passe/</guid>
+      <guid>http://blog1star.com/tags/passe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programmation</title>
-      <link>http://example.org/tags/programmation/</link>
+      <link>http://blog1star.com/tags/programmation/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/programmation/</guid>
+      <guid>http://blog1star.com/tags/programmation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>http://example.org/tags/r/</link>
+      <link>http://blog1star.com/tags/r/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/r/</guid>
+      <guid>http://blog1star.com/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Raw</title>
-      <link>http://example.org/tags/raw/</link>
+      <link>http://blog1star.com/tags/raw/</link>
       <pubDate>Thu, 05 Oct 2017 21:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/raw/</guid>
+      <guid>http://blog1star.com/tags/raw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Superlatif</title>
-      <link>http://example.org/tags/superlatif/</link>
+      <link>http://blog1star.com/tags/superlatif/</link>
       <pubDate>Mon, 02 Oct 2017 21:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/superlatif/</guid>
+      <guid>http://blog1star.com/tags/superlatif/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Verbe</title>
-      <link>http://example.org/tags/verbe/</link>
+      <link>http://blog1star.com/tags/verbe/</link>
       <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/verbe/</guid>
+      <guid>http://blog1star.com/tags/verbe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>http://example.org/tags/web/</link>
+      <link>http://blog1star.com/tags/web/</link>
       <pubDate>Thu, 05 Oct 2017 21:05:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/web/</guid>
+      <guid>http://blog1star.com/tags/web/</guid>
       <description></description>
     </item>
     

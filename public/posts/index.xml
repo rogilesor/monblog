@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>http://example.org/posts/</link>
+    <link>http://blog1star.com/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Oct 2017 15:09:44 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog1star.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Formation verbale du passé</title>
-      <link>http://example.org/posts/neerlandais/formation-passe/</link>
+      <link>http://blog1star.com/posts/neerlandais/formation-passe/</link>
       <pubDate>Tue, 17 Oct 2017 15:09:44 +0200</pubDate>
       
-      <guid>http://example.org/posts/neerlandais/formation-passe/</guid>
+      <guid>http://blog1star.com/posts/neerlandais/formation-passe/</guid>
       <description>&lt;p&gt;Ce document présente une synthèse des règles de la formation du prétérit et du participe passé.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>les verbes forts avec un radical in/im</title>
-      <link>http://example.org/posts/neerlandais/post_im_in/</link>
+      <link>http://blog1star.com/posts/neerlandais/post_im_in/</link>
       <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/neerlandais/post_im_in/</guid>
+      <guid>http://blog1star.com/posts/neerlandais/post_im_in/</guid>
       <description>&lt;p&gt;Ces verbes forts forment un prétérit et un participe passé de la même façon : le i est transformé en o.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>Interactif_adjectif</title>
-      <link>http://example.org/posts/neerlandais/interactif_adjectif/</link>
+      <link>http://blog1star.com/posts/neerlandais/interactif_adjectif/</link>
       <pubDate>Sat, 14 Oct 2017 16:47:17 +0200</pubDate>
       
-      <guid>http://example.org/posts/neerlandais/interactif_adjectif/</guid>
+      <guid>http://blog1star.com/posts/neerlandais/interactif_adjectif/</guid>
       <description>&lt;p&gt;Ce document présente les règles d&amp;rsquo;accord de l&amp;rsquo;adjectif qualificatif en néerlandais.&lt;/p&gt;
 
 &lt;p&gt;Il est interactif, on peut cliquer sur certaines parties pour avoir des compléments (orthographe, exemple, parties soulignées)&lt;/p&gt;
@@ -48,10 +48,10 @@
     
     <item>
       <title>Adjectif_qualificatif</title>
-      <link>http://example.org/posts/neerlandais/adjectif_qualificatif/</link>
+      <link>http://blog1star.com/posts/neerlandais/adjectif_qualificatif/</link>
       <pubDate>Fri, 13 Oct 2017 22:26:24 +0200</pubDate>
       
-      <guid>http://example.org/posts/neerlandais/adjectif_qualificatif/</guid>
+      <guid>http://blog1star.com/posts/neerlandais/adjectif_qualificatif/</guid>
       <description>het woorden (neutre singulier) =&amp;gt; pas de -e à la terminaison
 de woorden (masculin et feminin singulier et pluriel) =&amp;gt; on ajoute un -e à la terminaison.
 Les règles plus complètes sont résumées ci-dessous :</description>
@@ -59,29 +59,29 @@ Les règles plus complètes sont résumées ci-dessous :</description>
     
     <item>
       <title>Determiner les de woorden en fonction de la forme du mot</title>
-      <link>http://example.org/posts/neerlandais/de_woorden_forme/</link>
+      <link>http://blog1star.com/posts/neerlandais/de_woorden_forme/</link>
       <pubDate>Sun, 08 Oct 2017 21:05:08 +0200</pubDate>
       
-      <guid>http://example.org/posts/neerlandais/de_woorden_forme/</guid>
+      <guid>http://blog1star.com/posts/neerlandais/de_woorden_forme/</guid>
       <description>Pour determiner les de woorden en fonction de la forme du mot.</description>
     </item>
     
     <item>
       <title>Image_matricielle_grid</title>
-      <link>http://example.org/posts/r/matriciel/</link>
+      <link>http://blog1star.com/posts/r/matriciel/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/r/matriciel/</guid>
+      <guid>http://blog1star.com/posts/r/matriciel/</guid>
       <description>Définition Les images matricielles sont très bien définies dans wikipédia :
 Une image matricielle, ou « carte de points » (de l&amp;rsquo;anglais bitmap), est une image constituée d&amp;rsquo;une matrice de points colorés. C&amp;rsquo;est-à-dire, constituée d&amp;rsquo;un tableau, d&amp;rsquo;une grille, où chaque case possède une couleur qui lui est propre et est considérée comme un point. Il s&amp;rsquo;agit donc d&amp;rsquo;une juxtaposition de points de couleurs formant, dans leur ensemble, une image.</description>
     </item>
     
     <item>
       <title>raster image change color</title>
-      <link>http://example.org/posts/r/change_colors/</link>
+      <link>http://blog1star.com/posts/r/change_colors/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/r/change_colors/</guid>
+      <guid>http://blog1star.com/posts/r/change_colors/</guid>
       <description>&lt;p&gt;Cet article présente comment transformer une image avec le language R. On isole une matrice qui associe à chaque pixel une couleur et on travaille sur cette matrice.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -89,10 +89,10 @@ Une image matricielle, ou « carte de points » (de l&amp;rsquo;anglais bitmap),
     
     <item>
       <title>l&#39;étoile du berger</title>
-      <link>http://example.org/posts/religion/berger/</link>
+      <link>http://blog1star.com/posts/religion/berger/</link>
       <pubDate>Sat, 07 Oct 2017 10:05:08 +0200</pubDate>
       
-      <guid>http://example.org/posts/religion/berger/</guid>
+      <guid>http://blog1star.com/posts/religion/berger/</guid>
       <description>Jupiter a montré aux sages le chemin vers Jésus
 Une constellation astronomique exceptionnelle explique l’étoile du berger.
 Que vous le croyiez ou non, l’étoile de Bethléem était bien réelle. Pour le moins, c’est ce que dit l’astronome américain Michael Molnar. La planète Jupiter était alors dans la constellation du bélier, une constellation unique avec une signification symbolique.
@@ -101,46 +101,46 @@ Cette histoire commence avec une pièce poussiéreuse du temps de l’empire rom
     
     <item>
       <title>raw html sous hugo</title>
-      <link>http://example.org/posts/hugo/hugo_raw_html/</link>
+      <link>http://blog1star.com/posts/hugo/hugo_raw_html/</link>
       <pubDate>Thu, 05 Oct 2017 21:05:08 +0200</pubDate>
       
-      <guid>http://example.org/posts/hugo/hugo_raw_html/</guid>
+      <guid>http://blog1star.com/posts/hugo/hugo_raw_html/</guid>
       <description>J’ai trouvé comment insérer du html dans un document markdown du générateur de site hugo : il faut juste entourer le code d’une balise div vide.</description>
     </item>
     
     <item>
       <title>Identification des het woorden avec la syntaxe</title>
-      <link>http://example.org/posts/neerlandais/het_woorden_forme/</link>
+      <link>http://blog1star.com/posts/neerlandais/het_woorden_forme/</link>
       <pubDate>Mon, 02 Oct 2017 21:06:48 +0200</pubDate>
       
-      <guid>http://example.org/posts/neerlandais/het_woorden_forme/</guid>
+      <guid>http://blog1star.com/posts/neerlandais/het_woorden_forme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comparatif et superlatif</title>
-      <link>http://example.org/posts/neerlandais/comparatif/</link>
+      <link>http://blog1star.com/posts/neerlandais/comparatif/</link>
       <pubDate>Mon, 02 Oct 2017 21:05:08 +0200</pubDate>
       
-      <guid>http://example.org/posts/neerlandais/comparatif/</guid>
+      <guid>http://blog1star.com/posts/neerlandais/comparatif/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Identifier les de woorden</title>
-      <link>http://example.org/posts/neerlandais/het_ou_de/</link>
+      <link>http://blog1star.com/posts/neerlandais/het_ou_de/</link>
       <pubDate>Mon, 02 Oct 2017 19:41:10 +0200</pubDate>
       
-      <guid>http://example.org/posts/neerlandais/het_ou_de/</guid>
+      <guid>http://blog1star.com/posts/neerlandais/het_ou_de/</guid>
       <description>Approche selon la signification.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://example.org/posts/presentation/about/</link>
+      <link>http://blog1star.com/posts/presentation/about/</link>
       <pubDate>Mon, 02 Oct 2017 19:38:04 +0200</pubDate>
       
-      <guid>http://example.org/posts/presentation/about/</guid>
+      <guid>http://blog1star.com/posts/presentation/about/</guid>
       <description>Bonjour, c’est un essai de création de blog statique. Non pas que les sites dynamiques soient si difficiles à créer, mais les gestions de bases de données et les problèmes de sécurité ne sont pas compatibles avec un autre emploi à temps plein. Je m’intéresse donc à d’autres technologies qui permettent de perdre un minimum de temps.
 J’espère donc que la création d&amp;rsquo;un site statique sera moins chronophage et me permettra de faire vivre ce blog.</description>
     </item>
