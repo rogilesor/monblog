@@ -81,76 +81,108 @@
 </div>
 
 </nav>
-    
-          <div style="border: 1px solid black; margin:10px; padding:10px; ">
-            
-            
-            <img src="http://blog1star.com//logo-bleu.gif" title="logo" >
-            
+     <div style="margin:25px;">
+          <h1>Manipuler les noms de vecteurs</h1>
+          <div style="color:grey; font-size:16px;">Tuesday, Oct 31, 2017</div>
+          <div style="color:grey; font-size:16px;"></div>
+          <div style="font-size:18px;"><p>Ce petit post permet donne quelques indications pour une manipulations rapides des noms des éléments des vecteurs.</p>
 
-               <div style="font-size:20px;">
-                    <a href="/posts/r/named_vectors/">Manipuler les noms de vecteurs</a>
-               </div>
-               <div style="color:grey; font-size:16px;">Tuesday, Oct 31, 2017</div>
-               <div style="color:grey; font-size:16px;"><strong>Tags:</strong> <a href="/tags/programmation">programmation</a> <a href="/tags/r">R</a> <a href="/tags/vecteur">vecteur</a> <a href="/tags/noms">noms</a> <a href="/tags/name">name</a> </div>
-               <div style="color:grey; font-size:16px;"><strong>Categories:</strong> <a href="/categories/r_language">r_language</a> </div>
-               <div style="color:grey; font-size:16px;"></div>
-               <p style="font-size:18px;"><p>Ce petit post permet donne quelques indications pour une manipulations rapides des noms des éléments des vecteurs.</p>
+<p></p>
 
-<p></p></p>
-          </div>
-	  
-          <div style="border: 1px solid black; margin:10px; padding:10px; ">
-            
-            
-            <img src="http://blog1star.com//logo-bleu.gif" title="logo" >
-            
+<h1 id="creer-un-vecteur-avec-des-noms">creer un vecteur avec des noms</h1>
 
-               <div style="font-size:20px;">
-                    <a href="/posts/r/matriciel/">Image_matricielle_grid</a>
-               </div>
-               <div style="color:grey; font-size:16px;">Sunday, Oct 8, 2017</div>
-               <div style="color:grey; font-size:16px;"><strong>Tags:</strong> <a href="/tags/programmation">programmation</a> <a href="/tags/r">R</a> <a href="/tags/grid">grid</a> <a href="/tags/image">image</a> </div>
-               <div style="color:grey; font-size:16px;"><strong>Categories:</strong> <a href="/categories/r_language">r_language</a> </div>
-               <div style="color:grey; font-size:16px;"></div>
-               <p style="font-size:18px;">Définition Les images matricielles sont très bien définies dans wikipédia :
-Une image matricielle, ou « carte de points » (de l&rsquo;anglais bitmap), est une image constituée d&rsquo;une matrice de points colorés. C&rsquo;est-à-dire, constituée d&rsquo;un tableau, d&rsquo;une grille, où chaque case possède une couleur qui lui est propre et est considérée comme un point. Il s&rsquo;agit donc d&rsquo;une juxtaposition de points de couleurs formant, dans leur ensemble, une image.</p>
-          </div>
-	  
-          <div style="border: 1px solid black; margin:10px; padding:10px; ">
-            
-            
-            <img src="http://blog1star.com//logo-bleu.gif" title="logo" >
-            
+<pre><code class="language-r">mv &lt;- c(x = 1, y = 2, z = 4)
+</code></pre>
 
-               <div style="font-size:20px;">
-                    <a href="/posts/r/change_colors/">raster image change color</a>
-               </div>
-               <div style="color:grey; font-size:16px;">Sunday, Oct 8, 2017</div>
-               <div style="color:grey; font-size:16px;"><strong>Tags:</strong> <a href="/tags/programmation">programmation</a> <a href="/tags/r">R</a> <a href="/tags/grid">grid</a> <a href="/tags/image">image</a> </div>
-               <div style="color:grey; font-size:16px;"><strong>Categories:</strong> <a href="/categories/r_language">r_language</a> </div>
-               <div style="color:grey; font-size:16px;"></div>
-               <p style="font-size:18px;"><p>Cet article présente comment transformer une image avec le language R. On isole une matrice qui associe à chaque pixel une couleur et on travaille sur cette matrice.</p>
+<h1 id="retrouver-des-valeurs">retrouver des valeurs</h1>
 
-<p></p></p>
-          </div>
-	  
-      <h3>
-</h3>
+<pre><code class="language-r">mv[&quot;x&quot;]
+</code></pre>
+
+<pre><code>## x 
+## 1
+</code></pre>
+
+<pre><code class="language-r">mv[1]
+</code></pre>
+
+<pre><code>## x 
+## 1
+</code></pre>
+
+<h1 id="affecter-facilement-des-noms-aux-vecteurs">affecter facilement des noms aux vecteurs</h1>
+
+<pre><code class="language-r">require(purrr)
+set_names(1:3,c(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;))
+</code></pre>
+
+<pre><code>## a b c 
+## 1 2 3
+</code></pre>
+
+<pre><code class="language-r">mv2 &lt;- set_names(1:3,c(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;))
+mv2
+</code></pre>
+
+<pre><code>## a b c 
+## 1 2 3
+</code></pre>
+
+<h1 id="subsetting">subsetting</h1>
+
+<pre><code class="language-r">mv2[c(&quot;a&quot;,&quot;b&quot;)]
+</code></pre>
+
+<pre><code>## a b 
+## 1 2
+</code></pre>
+
+<h1 id="retrouver-les-noms">retrouver les noms</h1>
+
+<pre><code class="language-r">names(mv2)
+</code></pre>
+
+<pre><code>## [1] &quot;a&quot; &quot;b&quot; &quot;c&quot;
+</code></pre>
+
+<h1 id="effacer-les-noms">effacer les noms</h1>
+
+<pre><code class="language-r">names(mv2) &lt;- NULL
+mv2
+</code></pre>
+
+<pre><code>## [1] 1 2 3
+</code></pre></div>
+     </div>
+
+<div id="disqus_thread"></div>
+<script>
 
 
 
-   
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://blog1star-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          
+	                  
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 <script type="text/javascript" src="/js/setup.js"></script>
 
-<div style="height:35px;"></div>
+     <div style="height:35px;"></div>
 <div style=" position:fixed; color: white; height:35px; background-color:#757575; bottom:0px; text-align:center; width:99%">
      <p style="margin:10px; "><a style="color: white; " target="_blank" href="http://www.giraffeacademy.com/">1star Academy</a> </p>
 </div>
+
 
 
 

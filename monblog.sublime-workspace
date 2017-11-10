@@ -250,11 +250,13 @@
 			}
 		},
 		{
+			"contents": "{{define \"main\"}}\n    {{ partial \"sommaire3\" }}\n    {{ range .Paginator.Pages }}\n          <div style=\"border: 1px solid black; margin:10px; padding:10px; \">\n            \n            {{ if eq (index .Params.categories 0) \"neerlandais\"}}\n            <img src=\"{{ .Site.BaseURL }}logo-orange.gif\" title=\"logo\" >\n            {{ else if eq (index .Params.categories 0) \"r_language\"}}\n            <img src=\"{{ .Site.BaseURL }}logo-bleu.gif\" title=\"logo\" >\n            {{ else if eq (index .Params.categories 0) \"hugo\"}}\n            <img src=\"{{ .Site.BaseURL }}logo-magenta.gif\" title=\"logo\" >\n            {{ else if eq (index .Params.categories 0) \"religion\"}}\n            <img src=\"{{ .Site.BaseURL }}logo-turquoise.gif\" title=\"logo\" >\n            {{ else if eq (index .Params.categories 0) \"presentation\"}}\n            <img src=\"{{ .Site.BaseURL }}logo-vert.gif\" title=\"logo\" >\n            {{end}}\n\n               <div style=\"font-size:20px;\">\n                    <a href=\"{{.URL}}\">{{.Title}}</a>\n               </div>\n               <div style=\"color:grey; font-size:16px;\">{{ dateFormat \"Monday, Jan 2, 2006\" .Date }}</div>\n               <div style=\"color:grey; font-size:16px;\">{{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href=\"{{ \"/tags/\" | relLangURL }}{{ . | urlize }}\">{{ . }}</a> {{end}}{{end}}</div>\n               <div style=\"color:grey; font-size:16px;\">{{ if .Params.categories }}<strong>Categories:</strong> {{range .Params.categories}}<a href=\"{{ \"/categories/\" | relLangURL }}{{ . | urlize }}\">{{ . }}</a> {{end}}{{end}}</div>\n               <div style=\"color:grey; font-size:16px;\">{{ if .Params.moods }}<strong>Moods:</strong> {{range .Params.moods}}<a href=\"{{ \"/moods/\" | relLangURL }}{{ . | urlize }}\">{{ . }}</a> {{end}}{{end}}</div>\n               <p style=\"font-size:18px;\">{{.Summary}}</p>\n          </div>\n\t  {{ end }}\n      <h3>{{ template \"_internal/pagination.html\" . }}</h3>\n\n\n\n   \n{{ partial \"bootst\" . }}\n{{ partial \"footer\" . }}\n{{end}}\n",
 			"file": "layouts/_default/list.html",
+			"file_size": 1999,
+			"file_write_time": 131527395650000000,
 			"settings":
 			{
-				"buffer_size": 1255,
-				"encoding": "UTF-8",
+				"buffer_size": 1994,
 				"line_ending": "Unix"
 			}
 		},
@@ -282,7 +284,7 @@
 			"file": "layouts/partials/sommaire3.html",
 			"settings":
 			{
-				"buffer_size": 1727,
+				"buffer_size": 1729,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -297,11 +299,86 @@
 			}
 		},
 		{
+			"file": "content/posts/neerlandais/post_im_in.md",
+			"settings":
+			{
+				"buffer_size": 1542,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/posts/neerlandais/formation-passe.md",
+			"settings":
+			{
+				"buffer_size": 8996,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "layouts/_default/baseof.html",
 			"settings":
 			{
-				"buffer_size": 1201,
+				"buffer_size": 1300,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "$(document).on \"click\", \"#Bouton-exemple-regle2\", ->\n  $('#regle2-exemple').removeClass('st15')\n  $('#regle2-texte').addClass('st15')\n  $(\"#Bouton-exemple-regle2\").addClass('st15')\n  $(\"#Bouton-texte-regle2\").removeClass('st15')\n\n$(document).on \"click\", \"#Bouton-texte-regle2\", ->\n  $('#regle2-exemple').addClass('st15')\n  $('#regle2-texte').removeClass('st15')\n  $(\"#Bouton-exemple-regle2\").removeClass('st15')\n  $(\"#Bouton-texte-regle2\").addClass('st15')\n\n$(document).on \"click\", \"#bouton-orthographe\", ->\n  $('#orthographe').removeClass('st15')\n  $('#regles').addClass('st15')\n  $(\"#bouton-orthographe\").addClass('st15')\n  $(\"#bouton-regles-generales\").removeClass('st15')\n\n$(document).on \"click\", \"#bouton-regles-generales\", ->\n  $('#orthographe').addClass('st15')\n  $('#regles').removeClass('st15')\n  $(\"#bouton-orthographe\").removeClass('st15')\n  $(\"#bouton-regles-generales\").addClass('st15')\n\n$(document).on \"click\", \"#matiere-front\", ->\n  $('#matiere-front').addClass('st15')\n  $('#mat-exemples').removeClass('st15')\n \n$(document).on \"click\", \"#mat-exemples\", ->\n  $('#matiere-front').removeClass('st15')\n  $('#mat-exemples').addClass('st15')\n\n$(document).on \"click\", \"#term_front\", ->\n  $('#term_front').addClass('st15')\n  $('#term-exemples').removeClass('st15')\n\n$(document).on \"click\", \"#term-exemples\", ->\n  $('#term_front').removeClass('st15')\n  $('#term-exemples').addClass('st15')\n\n\n\n",
+			"file": "/Users/igorstaroseltsev/Desktop/adj_interactif/setup.coffee",
+			"file_size": 1398,
+			"file_write_time": 131530701370000000,
+			"settings":
+			{
+				"buffer_size": 1400,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/posts/R/named_vectors.md",
+			"settings":
+			{
+				"buffer_size": 909,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.toml",
+			"settings":
+			{
+				"buffer_size": 120,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/igorstaroseltsev/Desktop/logo/logo-header.svg",
+			"settings":
+			{
+				"buffer_size": 868,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "layouts/partials/header.html",
+			"settings":
+			{
+				"buffer_size": 169,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Calque_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 57 55.5\" style=\"enable-background:new 0 0 57 55.5;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#F0E52F;stroke:#1C3055;stroke-width:1.0118;stroke-miterlimit:10;}\n\t.st1{fill:#2E3B8F;}\n\t.st2{font-family:'MyriadPro-Regular';}\n\t.st3{font-size:14.7463px;}\n</style>\n<g>\n\t<polygon class=\"st0\" points=\"52.9,36.5 37.9,37.3 37.6,52.3 27.5,41.2 15.6,50.3 18.1,35.5 3.6,31.8 16.7,24.5 10.4,10.9 \n\t\t24.3,16.6 31.1,3.2 35.3,17.6 50,14.6 41.3,26.9 \t\"/>\n\t<text transform=\"matrix(1 0 0 1 20.9476 32.408)\" class=\"st1 st2 st3\">1S</text>\n</g>\n</svg>\n",
+			"file": "/Users/igorstaroseltsev/Desktop/logo.svg",
+			"file_size": 819,
+			"file_write_time": 131527369460000000,
+			"settings":
+			{
+				"buffer_size": 819,
 				"line_ending": "Unix"
 			}
 		}
@@ -517,6 +594,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"in",
+			"verbes",
 			"image"
 		],
 		"highlight": true,
@@ -535,7 +614,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 13,
 			"sheets":
 			[
 				{
@@ -564,7 +643,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
@@ -593,7 +672,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
@@ -622,7 +701,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
@@ -653,7 +732,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
@@ -662,15 +741,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1255,
+						"buffer_size": 1994,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1190,
-								1190
+								827,
+								859
 							]
 						],
 						"settings":
@@ -681,7 +760,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 436.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -700,20 +779,22 @@
 						"selection":
 						[
 							[
-								404,
-								417
+								47,
+								47
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -744,7 +825,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
@@ -753,15 +834,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1727,
+						"buffer_size": 1729,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								673,
-								673
+								612,
+								631
 							]
 						],
 						"settings":
@@ -775,7 +856,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -803,24 +884,82 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
 					"buffer": 9,
-					"file": "layouts/_default/baseof.html",
+					"file": "content/posts/neerlandais/post_im_in.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1201,
+						"buffer_size": 1542,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1098,
-								1098
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "content/posts/neerlandais/formation-passe.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "layouts/_default/baseof.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								677,
+								677
 							]
 						],
 						"settings":
@@ -831,10 +970,180 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 417.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/igorstaroseltsev/Desktop/adj_interactif/setup.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1399,
+								1399
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 476.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "content/posts/R/named_vectors.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "config.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/Users/igorstaroseltsev/Desktop/logo/logo-header.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								868
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "layouts/partials/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/Users/igorstaroseltsev/Desktop/logo.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								819
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]

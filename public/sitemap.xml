@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog1star.com/posts/r/named_vectors/</loc>
+    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog1star.com/posts/neerlandais/formation-passe/</loc>
     <lastmod>2017-10-17T15:09:44+02:00</lastmod>
   </url>
@@ -188,7 +193,7 @@
   
   <url>
     <loc>http://blog1star.com/</loc>
-    <lastmod>2017-10-17T15:09:44+02:00</lastmod>
+    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -199,13 +204,19 @@
   </url>
   
   <url>
-    <loc>http://blog1star.com/tags/neerlandais/</loc>
-    <lastmod>2017-10-17T15:09:44+02:00</lastmod>
+    <loc>http://blog1star.com/tags/name/</loc>
+    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog1star.com/categories/neerlandais/</loc>
+    <lastmod>2017-10-17T15:09:44+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog1star.com/tags/neerlandais/</loc>
     <lastmod>2017-10-17T15:09:44+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -217,6 +228,12 @@
   </url>
   
   <url>
+    <loc>http://blog1star.com/tags/noms/</loc>
+    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog1star.com/tags/passe/</loc>
     <lastmod>2017-10-17T15:09:44+02:00</lastmod>
     <priority>0</priority>
@@ -224,7 +241,7 @@
   
   <url>
     <loc>http://blog1star.com/posts/</loc>
-    <lastmod>2017-10-17T15:09:44+02:00</lastmod>
+    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -236,19 +253,19 @@
   
   <url>
     <loc>http://blog1star.com/tags/programmation/</loc>
-    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog1star.com/tags/r/</loc>
-    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog1star.com/categories/r_language/</loc>
-    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -273,6 +290,12 @@
   <url>
     <loc>http://blog1star.com/tags/</loc>
     <lastmod>2017-10-14T16:47:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog1star.com/tags/vecteur/</loc>
+    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
     <priority>0</priority>
   </url>
   
