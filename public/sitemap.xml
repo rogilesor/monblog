@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog1star.com/posts/r/legend/</loc>
+    <lastmod>2017-11-10T18:08:02+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog1star.com/posts/r/named_vectors/</loc>
     <lastmod>2017-10-31T20:17:13+01:00</lastmod>
   </url>
@@ -150,6 +155,18 @@
   </url>
   
   <url>
+    <loc>http://blog1star.com/tags/ggally/</loc>
+    <lastmod>2017-11-10T18:08:02+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog1star.com/tags/ggplot2/</loc>
+    <lastmod>2017-11-10T18:08:02+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog1star.com/tags/grammaire/</loc>
     <lastmod>2017-10-17T15:09:44+02:00</lastmod>
     <priority>0</priority>
@@ -186,6 +203,12 @@
   </url>
   
   <url>
+    <loc>http://blog1star.com/tags/legend/</loc>
+    <lastmod>2017-11-10T18:08:02+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog1star.com/tags/markdown/</loc>
     <lastmod>2017-10-05T21:05:08+02:00</lastmod>
     <priority>0</priority>
@@ -193,7 +216,7 @@
   
   <url>
     <loc>http://blog1star.com/</loc>
-    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
+    <lastmod>2017-11-10T18:08:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -210,13 +233,13 @@
   </url>
   
   <url>
-    <loc>http://blog1star.com/categories/neerlandais/</loc>
+    <loc>http://blog1star.com/tags/neerlandais/</loc>
     <lastmod>2017-10-17T15:09:44+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog1star.com/tags/neerlandais/</loc>
+    <loc>http://blog1star.com/categories/neerlandais/</loc>
     <lastmod>2017-10-17T15:09:44+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -241,7 +264,7 @@
   
   <url>
     <loc>http://blog1star.com/posts/</loc>
-    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
+    <lastmod>2017-11-10T18:08:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -253,19 +276,19 @@
   
   <url>
     <loc>http://blog1star.com/tags/programmation/</loc>
-    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
+    <lastmod>2017-11-10T18:08:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog1star.com/tags/r/</loc>
-    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
+    <lastmod>2017-11-10T18:08:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog1star.com/categories/r_language/</loc>
-    <lastmod>2017-10-31T20:17:13+01:00</lastmod>
+    <lastmod>2017-11-10T18:08:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   

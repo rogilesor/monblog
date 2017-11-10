@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ggplot2 on My New Hugo Site</title>
+    <link>http://blog1star.com/tags/ggplot2/</link>
+    <description>Recent content in Ggplot2 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Nov 2017 18:08:02 +0100</lastBuildDate>
+    
+	<atom:link href="http://blog1star.com/tags/ggplot2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>extraire une légende d&#39;un graphe ggplot2</title>
+      <link>http://blog1star.com/posts/r/legend/</link>
+      <pubDate>Fri, 10 Nov 2017 18:08:02 +0100</pubDate>
+      
+      <guid>http://blog1star.com/posts/r/legend/</guid>
+      <description>&lt;p&gt;Ce post explique comment isoler une légende d&amp;rsquo;un graphique fait avec ggplot2.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
